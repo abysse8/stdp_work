@@ -1,0 +1,4 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'figures.blg'
+[76] biber:340> INFO - === Wed May 10, 2023, 13:48:22
+[90] Biber.pm:419> INFO - Reading 'figures.bcf'

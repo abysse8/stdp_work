@@ -1,0 +1,24 @@
+\documentclass[lettersize, journal]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\input{~/git/Classes/preamble.tex} %preamble
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+%\addbibresource
+\title{Figs}
+\author{LJ Gonzales}
+\date{May 2023}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}
+	\addplot3[mesh, 
+		samples=40, 
+		domain y= 0:2.5]{tanh(y)};
+	\addplot3[mesh, 
+		samples=40,
+		domain y= -2.5:0]{tanh(-y)};
+\end{axis}
+\end{tikzpicture}
+
+%\printbibliography
+\end{document}
