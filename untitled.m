@@ -33,7 +33,7 @@ for jjj= 1:length(all_trials)
 end
 %%
 result = zeros()
-for freq = 0.01:0.01:10%length(example)
+for freq = 0.01:0.01:10 %length(example)
         dummy_vector = zeros(1,length(example));
         for iii = 1:length(dummy_vector)
             if mod(iii+r,t) == 0
